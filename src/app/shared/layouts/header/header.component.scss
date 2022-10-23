@@ -1,0 +1,17 @@
+::ng-deep {
+  app-header {
+    @apply w-full;
+
+    .header {
+      @apply flex justify-between p-3 w-full;
+
+      &__title {
+        @apply flex items-center gap-3;
+      }
+
+      &__actions {
+        @apply flex gap-3;
+      }
+    }
+  }
+}

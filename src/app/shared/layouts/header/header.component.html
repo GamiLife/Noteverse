@@ -1,0 +1,30 @@
+<div class="header">
+  <div class="header__title">
+    
+    <a [routerLink]="homeUrl"> 
+      <app-text
+        text="GamiNotes"
+        [classname]="'text-xl font-bold'"
+        [color]="'black'"
+      ></app-text></a>
+
+    <ng-content select="header-content"></ng-content>
+  </div>
+
+  <div class="header__actions">
+    <app-list-item
+      background="#f3f3f3"
+      icon="bell"
+      type="icon"
+      background="white"
+      padding="8px"
+    ></app-list-item>
+    <app-list-item
+      background="#f3f3f3"
+      icon="person-circle"
+      type="icon"
+      background="white"
+      padding="8px"
+    ></app-list-item>
+  </div>
+</div>

@@ -1,0 +1,7 @@
+# GamiNotes
+
+## TODO:
+
+## DOING
+
+## DONE
